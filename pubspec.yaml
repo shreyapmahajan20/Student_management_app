@@ -1,0 +1,23 @@
+name: student_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you're publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  shared_preferences: ^2.2.0
+  cupertino_icons: ^1.0.8
+  http: ^0.13.6
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
